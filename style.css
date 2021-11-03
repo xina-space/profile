@@ -135,6 +135,18 @@ a {
   .container {
     width: 700px;
   }
+
+  .card {
+    flex-direction: column-reverse;
+  }
+  .intro-image {
+  float: left;
+  /* position: absolute; */
+}
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 5vh;
+}
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
